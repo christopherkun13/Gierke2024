@@ -130,6 +130,12 @@ body {
 }
 small{
     font-family: Arial, sans-serif;
+    font-size: 8px;
+}
+
+/* Ajuste de espaciado para desktop */
+.custom-spacing p {
+    margin-right: 10px; /* Espacio entre el texto y el botón en desktop */
 }
 @media (max-width: 1024px) {
     .custom-container {
@@ -142,6 +148,11 @@ small{
     .pablo-image {
         margin: 0 auto !important;
         display: block !important;
+    }
+
+    .custom-spacing {
+        flex-direction: column; /* Botón debajo del texto */
+        gap: 10px; /* Espaciado entre texto y botón */
     }
 }
 /* Responsive Adjustments */
