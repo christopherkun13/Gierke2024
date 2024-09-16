@@ -1,0 +1,186 @@
+/* Incluye la fuente Dancing Script desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html, body {
+    overflow-x: hidden; /* Elimina el scroll horizontal en todo el sitio */
+    margin: 0; /* Asegura que no haya márgenes que causen desbordamiento */
+}
+
+.container, .row {
+    margin: 0 auto; /* Centra y ajusta los márgenes */
+    max-width: 100%; /* Asegura que los elementos no excedan el ancho */
+    padding: 0 15px; /* Ajusta el padding para evitar espacios en blanco */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important; /* Cambia el color del texto a blanco */
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff !important; /* Cambia el color del nombre a blanco */
+}
+
+.van-image {
+    height: 40px; /* Ajusta el tamaño según lo que mejor se vea */
+    width: auto;
+    max-width: 100%;
+}
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.bg-turquoise {
+    background-color: #4bc0ba; /* Color turquesa */
+}
+
+.text-turquoise {
+    color: #4bc0ba; /* Color turquesa */
+}
+
+/* Hero Section con Imagen */
+.hero {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.hero .container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-family: 'Dancing Script', cursive; /* Fuente manuscrita para títulos */
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-family: Arial, sans-serif; /* Arial para los párrafos */
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-turquoise {
+    background-color: #4bc0ba; /* Color base actualizado */
+    border-color: #4bc0ba; /* Color base actualizado */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif; /* Arial para los botones */
+}
+
+.text-turquoise {
+    color: #4bc0ba; /* Color base actualizado */
+}
+
+.border-turquoise {
+    border: 2px solid #4bc0ba; /* Color base actualizado */
+}
+
+.btn-turquoise {
+    background-color: #4bc0ba !important; /* Color base actualizado */
+    color: #fff !important;
+    border: none;
+    box-shadow: none; /* Elimina cualquier sombra */
+    transition: none !important; /* Elimina todas las transiciones */
+}
+
+.btn-turquoise:hover,
+.btn-turquoise:focus,
+.btn-turquoise:active {
+    background-color: #4bc0ba !important; /* Color base actualizado */
+    color: #fff !important;
+    outline: none;
+    box-shadow: none; /* Elimina sombras adicionales */
+}
+
+.custom-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    gap: 20px;
+}
+
+.pablo-image {
+    width: 45%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-container {
+    flex-grow: 1;
+    padding-left: 20px; /* Espacio para los textos */
+}
+
+.combi-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+small{
+    font-family: Arial, sans-serif;
+}
+@media (max-width: 1024px) {
+    .custom-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .pablo-image {
+        margin: 0 auto !important;
+        display: block !important;
+    }
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero .container {
+        bottom: 10px;
+        left: 10px;
+        padding: 5px;
+    }
+
+    .img-mobile{
+        height: 350px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .text-container p {
+        margin: 0 10px; /* Añade márgenes laterales */
+        word-break: break-word; /* Permite que las palabras largas se dividan */
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 1.2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .text-container p {
+        padding: 0 15px; /* Añade padding lateral en móviles */
+    }
+    
+}
