@@ -164,7 +164,7 @@ small{
     }
 
     .img-mobile{
-        height: 350px;
+        height: auto;
     }
 
     .hero h1 {
