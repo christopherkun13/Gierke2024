@@ -189,6 +189,12 @@ small{
         top: 10px; /* Ajusta la altura si es necesario */
         z-index: 1; /* Asegura que esté por encima de otros elementos */
     }
+
+    .btn-turquoise {
+        padding: 5px 10px; /* Ajusta el relleno del botón */
+        font-size: 0.8rem; /* Reduce el tamaño de la fuente */
+        width: auto; /* Asegura que el botón se ajuste a su contenido */
+    }
     
 }
 
