@@ -182,6 +182,14 @@ small{
         margin: 0 10px; /* Añade márgenes laterales */
         word-break: break-word; /* Permite que las palabras largas se dividan */
     }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 10px; /* Asegura que el botón esté siempre a la derecha */
+        top: 10px; /* Ajusta la altura si es necesario */
+        z-index: 1; /* Asegura que esté por encima de otros elementos */
+    }
+    
 }
 
 @media (max-width: 576px) {
