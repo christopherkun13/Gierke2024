@@ -47,6 +47,7 @@ body {
     align-items: flex-end;
     justify-content: flex-start;
     overflow: hidden;
+    
 }
 
 .hero .container {
@@ -163,11 +164,11 @@ small{
         padding: 5px;
     }
 
-    .img-mobile{
-        width: 100%;
-        min-height: 260px;
-        max-height: 400px;
-        height: auto;
+    .img-mobile {
+        width: 100vw; /* Ocupará todo el ancho disponible de la pantalla */
+        height: 100vh; /* Ocupará toda la altura de la pantalla */
+        object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin perder proporciones */
+        display: block;
     }
 
     .hero h1 {
@@ -192,7 +193,7 @@ small{
 
     .btn-turquoise {
         padding: 5px 10px; /* Ajusta el relleno del botón */
-        font-size: 0.8rem; /* Reduce el tamaño de la fuente */
+        font-size: 0.6rem; /* Reduce el tamaño de la fuente */
         width: auto; /* Asegura que el botón se ajuste a su contenido */
     }
     
