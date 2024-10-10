@@ -204,7 +204,7 @@ body {
     max-width: 450px;
     margin: 0 auto;
     display: block;
-    transform: translateY(-90px); /* Ajusta el valor para subir la imagen */
+    transform: translateY(-30px); /* Ajusta el valor para subir la imagen */
 
 }
 
@@ -268,7 +268,7 @@ small{
     }
 
     .pablo-image {
-        transform: translateY(-50px);
+        transform: translateY(0px);
     }
 
     .hero h1 {
@@ -277,6 +277,10 @@ small{
 
     .hero p {
         font-size: 1rem;
+    }
+
+    .text-container{
+        padding-left: 0;
     }
 
     .text-container p {
