@@ -112,7 +112,6 @@ body {
 .hero .container {
     position: absolute;
     bottom: 20px;
-    left: 20px;
     padding: 10px;
     border-radius: 8px;
     text-align: left;
@@ -231,7 +230,7 @@ small{
 
 .img-slogan{
     width: 100%;
-    max-width: 300px;
+    max-width: 100px;
 }
 @media (max-width: 1024px) {
     .custom-container {
@@ -268,7 +267,9 @@ small{
         padding: 5px;
     }
 
-   
+    .pablo-image {
+        transform: translateY(-50px);
+    }
 
     .hero h1 {
         font-size: 1.5rem;
@@ -281,6 +282,7 @@ small{
     .text-container p {
         margin: 0 10px; /* Añade márgenes laterales */
         word-break: break-word; /* Permite que las palabras largas se dividan */
+        text-align: justify;
     }
 
     .navbar-toggler {
