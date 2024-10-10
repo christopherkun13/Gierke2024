@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-turquoise {
+    background-color: #4bc0ba; /* Color turquesa */
+}
+
+.bg-orange{
+    background-color: #FF860D;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.image-container {
+    flex: 1 1 40%;
+    margin-right: 2rem;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.text-container {
+    flex: 1 1 55%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+    text-align: justify;
+}
+
+blockquote {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-style: italic;
+    border-left: 5px solid #4bc0ba;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.list-container {
+    margin-top: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.list-container ul li::before {
+    content: "✔";
+    color: #ff7f00 !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Contenedor general para el logo y el botón */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Estilo del logo */
+.logo-container {
+    text-align: center;
+    margin-left: auto;
+}
+
+.logo-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Estilo del botón "Atrás" con flecha dentro de un círculo */
+.back-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #4bc0ba;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 50px; /* Centra la flecha verticalmente */
+    position: absolute;
+    left: 20px; /* Ajusta la posición a la izquierda */
+    top: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button::before {
+    content: '←'; /* Flecha */
+    font-size: 1.5rem;
+}
+
+.back-button:hover {
+    background-color: #3aa89c;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .logo-container img {
+        max-width: 150px;
+    }
+
+    .back-button {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        line-height: 40px; /* Ajuste del tamaño del círculo en móviles */
+        left: 10px; /* Reduce el margen a la izquierda en pantallas pequeñas */
+    }
+
+    .back-button::before {
+        font-size: 1.2rem;
+    }
+}

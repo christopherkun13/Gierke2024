@@ -36,8 +36,7 @@
 <header class="bg-turquoise fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand d-flex align-items-center" href="#home">
-            <img src="images/logo-pablo.jpg" alt="Pablo Antonio Gierke Van - Logo de campaña" class="van-image mr-2">
-            Pablo Antonio Gierke <i class="fa fa-check" style="color: orange;"></i>
+            <img src="images/new/logo.png" alt="Pablo Antonio Gierke Van - Logo de campaña" class="van-image mr-2">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -57,17 +56,17 @@
 <section id="home" class="hero position-relative">
     <img src="images/portada.jpeg" alt="Portada de campaña de Pablo Antonio Gierke - Sigamos Avanzando" class="w-100 img-mobile">
     <div class="container position-absolute text-white" style="bottom: 20px; left: 20px;">
-        <h1 class="display-4">¡Sigamos Avanzando!</h1>
+        <img src="images/new/logo-vota52.png" class="display-4 img-slogan">
     <a href="#compromisos" class="btn btn-turquoise">Conoce Nuestros Compromisos</a>
     </div>
 </section>
 
 <!-- Sobre Pablo Section -->
-<section id="sobre" class="py-5 bg-white text-center text-md-left">
+<section id="sobre" class="py-5 bg-turquoise text-center text-md-left">
     <div class="custom-container d-flex flex-column flex-md-row align-items-start">
-        <img src="images/pablo.jpg" alt="Pablo Antonio Gierke - Candidato a alcalde de Cabrero" class="pablo-image mb-4">
+        <img src="images/new/pablo-pulgar-arriba.png" alt="Pablo Antonio Gierke - Candidato a alcalde de Cabrero" class="pablo-image">
         <div class="text-container">
-            <h2 style="color: #4bc0ba;">Sobre Pablo Antonio Gierke</h2>
+            <h2 style="font-weight: 700;">Vecinos y Vecinas :</h2>
             <br>
             <p>Soy Pablo Antonio Gierke Quevedo y quiero ser alcalde de Cabrero porque amo a mi comuna, porque tengo vocación de servicio, porque tengo convicción en mi gente y mi territorio, porque estoy seguro de que en el riesgo hay esperanza y que podemos, juntos, seguir avanzando.</p>
             <p>Mi madre me formó, en el seno de un sencillo hogar, junto a mi hermano Mario, como personas con valores sólidos y con la firme creencia en que el trabajo en comunidad, da grandes frutos. No fue fácil, pero ella lo logró. Con garra y perseverancia, nos dio un hogar cálido, amor y herramientas para hacernos un camino en la vida, con su ejemplo como maestra de tantas generaciones de estudiantes en Monte Águila.</p>
@@ -87,103 +86,143 @@
         <p class="mt-3 text-dark">
             Hemos diseñado nuestros compromisos en 10 áreas fundamentales, basados en las necesidades reales y aspiraciones de nuestra comuna. Cada compromiso refleja nuestro deseo de un Cabrero más seguro, saludable, próspero y conectado...
         </p>
-        <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <!-- Tarjeta 1 - Seguridad -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Seguridad - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/seguridad.jpg" alt="Logo de Seguridad - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Seguridad</h5>
                         <p class="card-text">Duplicaremos la instalación de cámaras de seguridad y usaremos aplicaciones móviles para mejorar la seguridad comunal.</p>
+                        <a onclick="window.location.href='./pages/seguridad.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 2 - Salud -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Salud - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/SALUD.jpg" alt="Logo de Salud - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Salud</h5>
                         <p class="card-text">Trabajaremos para concretar un Hospital de Mediana Complejidad y mejorar el acceso a la salud para todos.</p>
+                        <a onclick="window.location.href='./pages/salud.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 3 - Educación -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Educación - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/educacion.jpg" alt="Logo de Educación - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Educación</h5>
                         <p class="card-text">Gestionaremos la instalación de un centro de educación superior y reforzaremos la educación integral.</p>
+                        <a onclick="window.location.href='./pages/educacion.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 4 - Medio Ambiente -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Medio Ambiente - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/MEDIOAMBIENTE.jpg" alt="Logo de Medio Ambiente - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Medio Ambiente</h5>
                         <p class="card-text">Promoveremos el reciclaje, construiremos parques urbanos y plantaremos más árboles en la comuna.</p>
+                        <a onclick="window.location.href='./pages/sostenibilidad.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 5 - Emprendimiento -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Emprendimiento - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/emprendimientorural.jpg" alt="Logo de Emprendimiento - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Emprendimiento</h5>
                         <p class="card-text">Crearemos un centro de innovación y fortaleceremos el apoyo a emprendedores locales.</p>
+                        <a onclick="window.location.href='./pages/emprendimiento.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 6 - Cultura y Turismo -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Cultura y Turismo - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/TRADICIONES.jpg" alt="Logo de Cultura y Turismo - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Cultura y Turismo</h5>
                         <p class="card-text">Impulsaremos la creación de un museo histórico y promoveremos rutas turísticas sustentables.</p>
+                        <a onclick="window.location.href='./pages/turismo.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 7 - Jóvenes -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Jóvenes - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/jovenesdeporte.jpg" alt="Logo de Jóvenes - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Jóvenes</h5>
                         <p class="card-text">Implementaremos fondos concursables para jóvenes innovadores y crearemos espacios de formación.</p>
+                        <a onclick="window.location.href='./pages/deporte.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 8 - Mujer -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Mujer - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/mujer.jpg" alt="Logo de Mujer - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Mujer</h5>
                         <p class="card-text">Crearemos el programa "Mujeres al Frente" para fortalecer el rol de las mujeres trabajadoras.</p>
+                        <a onclick="window.location.href='./pages/mujeres.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 9 - Personas Mayores -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Personas Mayores - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/adultomayor.jpg" alt="Logo de Personas Mayores - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Personas Mayores</h5>
                         <p class="card-text">Construiremos un Centro de Acogida Diurno para personas mayores y fortaleceremos el turismo para adultos mayores.</p>
+                        <a onclick="window.location.href='./pages/personas-mayores.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tarjeta 10 - Gestión Municipal -->
             <div class="col">
-                <div class="card h-100 border-turquoise d-flex flex-row align-items-center">
-                    <img src="images/combi-logo.jpeg" alt="Logo de Gestión Municipal - Compromiso de campaña" class="combi-logo">
+                <div class="card h-100 d-flex flex-column align-items-center">
+                    <img src="images/compromisos/muni.jpg" alt="Logo de Gestión Municipal - Compromiso de campaña" class="combi-logo img-fluid">
+                    <div class="line-turquoise mt-3"></div>
                     <div class="card-body">
                         <h5 class="card-title text-turquoise">Gestión Municipal</h5>
                         <p class="card-text">Transformaremos digitalmente el municipio y crearemos presupuestos participativos.</p>
+                        <a onclick="window.location.href='./pages/gestion-municipal.html'" class="btn btn-orange">Leer más</a>
                     </div>
                 </div>
             </div>
-        </div>
-         <!-- Botón de Descarga -->
-         <div class="mt-4 custom-spacing d-flex justify-content-center align-items-center">
-            <p class="mb-0 text-dark">¿Te interesa conocer más sobre nuestros compromisos? Descárgalos ahora y descubre cómo transformaremos Cabrero:</p>
-            <a href="https://drive.google.com/file/d/1vNooFQXi4Rwjlr8KDauOqgW7g9sPnQdi/view?usp=sharing" class="btn btn-turquoise" target="_blank">Descargar compromisos</a>
-        </div>        
+
+            <!-- Nueva columna para las imágenes -->
+            <div class="col-md-8 d-flex flex-column align-items-center">
+                <img src="images/new/texto-este-es-mi-compromiso.png" alt="Imagen Superior de Compromisos" class="img-fluid mb-3 w-100 img-width">
+                <img src="images/new/logo-52-completo.png" alt="Imagen Inferior de Compromisos" class="img-fluid img-width">
+            </div>
+        </div>      
     </div>
 </section>
 
